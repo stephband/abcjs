@@ -1,3 +1,16 @@
+# Note
+
+This repo is a fork of Paul Rosen's ABCjs. I am primarily interested in
+extracting the ABC parser and allowing it to be used with JS modules. To this
+end, the files added to this repo are:
+
+- modules/ - a directory of modules that have been moved over from src/ and
+converted to JS modules
+- module.js - the entry point for my ABC parser
+
+Stephen.
+
+
 ![abcjs](https://paulrosen.github.io/abcjs/img/abcjs_comp_extended_08.svg)
 
 # Javascript library for rendering standard music notation in a browser.
@@ -27,7 +40,7 @@ There is a brand new transposing feature. This allows you to input an ABC string
 
 ## Announcement: version 6.0.0
 
-After way too long, abcjs 6.0.0 is now out of beta. 
+After way too long, abcjs 6.0.0 is now out of beta.
 
 There are only a few bug fixes since the last beta.
 
@@ -103,7 +116,7 @@ There have been some tweaks to the way wrapping is calculated. Hopefully this wi
 
 The files in `/bin` are being phased out. You can get the executables from `/dist` and the file names will not have the version number attached.
 
-Many of the old versions that were in `/bin` are no longer kept in the active branches. If you need a particular old version then you can go to the branch with that tag to get it. 
+Many of the old versions that were in `/bin` are no longer kept in the active branches. If you need a particular old version then you can go to the branch with that tag to get it.
 
 The last version in each major version number is still available in the active branch as well as many recent versions.
 
