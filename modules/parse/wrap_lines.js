@@ -439,7 +439,7 @@ function calcLineWraps(tune, widths, params) {
 	return ret;
 }
 
-export {
+export default {
 	wrapLines,
 	calcLineWraps
-}
+};
